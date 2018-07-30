@@ -39,6 +39,9 @@ Now, we are ready to execute the code as follows:
 
 ![](https://github.com/nikorose87/2D_topo_opt_truss_structure/blob/master/output_24_3.png)
 
+The results of stresses and deformations should be seen as this:
+
+[](https://github.com/nikorose87/2D_topo_opt_truss_structure/blob/master/deformations.png)
 
 ## References:
 
