@@ -1,6 +1,11 @@
 # 2D Topology Optimization of structure trusses
 
-As an academic project, I developed a 2D topology optimization of a truss structure in python, the algorithm took and performed many examples available in the web. The topology optimization was done under the nested formulation, It means that the process is static. Many examples of this problem have been done, however, this is able to analyze structures of any size, and shows a nice visualization with VTK library and Matplotlib. I hope this work could be useful for you.
+<div class=caption><b> Caption: </b> Truss structure problem, proposed by Christensen in his book. See the reference for more information. </div>
+
+[](https://github.com/nikorose87/2D_topo_opt_truss_structure/blob/master/Structure.png)
+
+
+As an academic project, I developed a 2D topology optimization of a truss structure (see above) in python, the algorithm took and performed many examples available in the web. The topology optimization was done under the nested formulation, It means that the process is static. Many examples of this problem have been done, however, this is able to analyze structures of any size, and shows a nice visualization with VTK library and Matplotlib. I hope this work could be useful for you.
 
 Five functions were implemented and/or modified in order to accomplish the process, being inspired mostly by the codes proposed in the book of (Ferreira, 2009):
 
@@ -17,7 +22,12 @@ Another class was proposed for visualizing the answer, which are:
     with the VTK libraries. Original code proposed by (Sukhbinder, 2015)
 - _visualizeAreas:_ A function to plot the results in terms of areas (width of the line) and in terms of Stresses (Blue is compression, red is tension).
 
-Those classes are in the file [FEA_Truss.py](https://github.com/nikorose87/2D_topo_opt_truss_structure/blob/master/FEAtrussDP3Opt.py)
+Those classes are in the file [FEAtruss.py](https://github.com/nikorose87/2D_topo_opt_truss_structure/blob/master/FEAtrussDP3Opt.py), and the main file is called [main_FEA_viz_opt1.py](https://github.com/nikorose87/2D_topo_opt_truss_structure/blob/master/main_FEA_viz_opt1.py). If you want to change the number of rows and/or columns, change the following in the code:
+
+```
+rows = 8
+cols = 4
+```
 
 Now, we are ready to execute the code as follows:
 
