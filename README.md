@@ -5,7 +5,7 @@ Five functions were implemented and/or modified in order to accomplish the proce
 
 - _structure2_ Build the element matrix in an array, containing the coordinates in each element.
 - _indexation_ Returns the element matrix but with the node indexation.
-- _solution_ Function to find solution in terms of global displacements. The code was based on the book of AJM Ferreira \cite{Codes2009}
+- _solution_ Function to find solution in terms of global displacements. The code was based on the book of (Ferreira, 2009)
 - _formStiffness2Dtruss_ Build the Stiffness matrix of the entire problem.
 - _outputDisplacementsReactions_ Calculates the force reactions once the displacements are obtained.
 - _stresses2Dtruss_ Calculates the stresses in each element.
@@ -23,3 +23,12 @@ Now, we are ready to execute the code as follows:
 
 <div class=caption><b> Caption: </b> Topology Opt. of a 2D truss Structure at 206 iterations.</div>
 ![png](output_24_3.png)
+
+
+References:
+
+- Sukhbinder, S. (2015). SukhbinderSingh.com. Retrieved July 15, 2018, from https://sukhbinder.wordpress.com/2015/03/10/displaying-truss/#more-2877.
+
+- Ferreira, A. J. M. (2009). MATLAB Codes for Finite Element Analysis, 157. https://doi.org/10.1007/978-1-4020-9200-8
+
+- Christensen, P. W., & Klabring, A. (2009). An introduction to structural optimization. https://doi.org/10.1007/978-1-4020-8666-3
