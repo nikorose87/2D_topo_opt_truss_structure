@@ -13,7 +13,7 @@ Five functions were implemented and/or modified in order to accomplish the proce
 Another class was proposed for visualizing the answer, which are:
 
 - _displayTruss:_     Function for calculating stiffness matrix, displacements, stresses of 2D trusses
-    with the VTK libraries. Original code proposed by \cite{truss2015}.
+    with the VTK libraries. Original code proposed by (Sukhbinder, 2015)
 - _visualizeAreas:_ A function to plot the results in terms of areas (width of the line) and in terms of Stresses (Blue is compression, red is tension).
 
 Now, we are ready to execute the code as follows:
