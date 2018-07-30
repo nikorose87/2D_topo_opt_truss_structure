@@ -17,7 +17,7 @@ Another class was proposed for visualizing the answer, which are:
     with the VTK libraries. Original code proposed by (Sukhbinder, 2015)
 - _visualizeAreas:_ A function to plot the results in terms of areas (width of the line) and in terms of Stresses (Blue is compression, red is tension).
 
-Those classes are in the file `main_Top_Opt.py`
+Those classes are in the file ![FEA_Truss.py](https://github.com/nikorose87/2D_topo_opt_truss_structure/blob/master/FEAtrussDP3Opt.py)
 
 Now, we are ready to execute the code as follows:
 
