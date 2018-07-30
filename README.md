@@ -29,6 +29,8 @@ rows = 8
 cols = 4
 ```
 
+You can change the properties of the material in the code as well.
+
 Now, we are ready to execute the code as follows:
 
 <div class=caption><b> Caption: </b> Topology Opt. of a 2D truss Structure at 51 iterations.</div>
