@@ -1,0 +1,2 @@
+# 2D_topo_opt_truss_structure
+As an academic project, I developed a 2D topology optimization of a truss structure in python, the algorithm took and performed many examples available in the web. The topology optimization was done under the nested formulation, It means that the process is static. Many examples of this problem have been done, however, this is able to analyze structures of any size, and shows a nice visualization with VTK library and Matplotlib. I hope this work could be useful for you.
