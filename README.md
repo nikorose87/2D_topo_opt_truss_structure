@@ -22,7 +22,7 @@ Now, we are ready to execute the code as follows:
 ![png](output_20_2.png)
 
 <div class=caption><b> Caption: </b> Topology Opt. of a 2D truss Structure at 206 iterations.</div>
-[[https://github.com/nikorose87/2D_topo_opt_truss_structure/blob/master/output_24_3.png]]
+![png](output_24_3.png)
 
 
 References:
