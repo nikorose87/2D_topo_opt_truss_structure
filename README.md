@@ -1,4 +1,5 @@
 # 2D Topology Optimization of structure trusses
+
 As an academic project, I developed a 2D topology optimization of a truss structure in python, the algorithm took and performed many examples available in the web. The topology optimization was done under the nested formulation, It means that the process is static. Many examples of this problem have been done, however, this is able to analyze structures of any size, and shows a nice visualization with VTK library and Matplotlib. I hope this work could be useful for you.
 
 Five functions were implemented and/or modified in order to accomplish the process, being inspired mostly by the codes proposed in the book of (Ferreira, 2009):
@@ -15,6 +16,8 @@ Another class was proposed for visualizing the answer, which are:
 - _displayTruss:_     Function for calculating stiffness matrix, displacements, stresses of 2D trusses
     with the VTK libraries. Original code proposed by (Sukhbinder, 2015)
 - _visualizeAreas:_ A function to plot the results in terms of areas (width of the line) and in terms of Stresses (Blue is compression, red is tension).
+
+Those classes are in the file `main_Top_Opt.py`
 
 Now, we are ready to execute the code as follows:
 
