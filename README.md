@@ -1,4 +1,4 @@
-# 2D_topo_opt_truss_structure
+# 2D Topology Optimization of structure trusses
 As an academic project, I developed a 2D topology optimization of a truss structure in python, the algorithm took and performed many examples available in the web. The topology optimization was done under the nested formulation, It means that the process is static. Many examples of this problem have been done, however, this is able to analyze structures of any size, and shows a nice visualization with VTK library and Matplotlib. I hope this work could be useful for you.
 
 Five functions were implemented and/or modified in order to accomplish the process, being inspired mostly by the codes proposed in the book of (Ferreira, 2009):
@@ -19,13 +19,15 @@ Another class was proposed for visualizing the answer, which are:
 Now, we are ready to execute the code as follows:
 
 <div class=caption><b> Caption: </b> Topology Opt. of a 2D truss Structure at 51 iterations.</div>
+
 ![](https://github.com/nikorose87/2D_topo_opt_truss_structure/blob/master/output_20_2.png)
 
 <div class=caption><b> Caption: </b> Topology Opt. of a 2D truss Structure at 206 iterations.</div>
+
 ![](https://github.com/nikorose87/2D_topo_opt_truss_structure/blob/master/output_24_3.png)
 
 
-References:
+## References:
 
 - Sukhbinder, S. (2015). SukhbinderSingh.com. Retrieved July 15, 2018, from https://sukhbinder.wordpress.com/2015/03/10/displaying-truss/#more-2877.
 
