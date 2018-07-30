@@ -19,10 +19,10 @@ Another class was proposed for visualizing the answer, which are:
 Now, we are ready to execute the code as follows:
 
 <div class=caption><b> Caption: </b> Topology Opt. of a 2D truss Structure at 51 iterations.</div>
-![png](output_20_2.png)
+![png](./output_20_2.png)
 
 <div class=caption><b> Caption: </b> Topology Opt. of a 2D truss Structure at 206 iterations.</div>
-![png](output_24_3.png)
+![png](./output_24_3.png)
 
 
 References:
