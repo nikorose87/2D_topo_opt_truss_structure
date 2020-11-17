@@ -1,4 +1,4 @@
-# 2D Topology Optimization of structure trusses
+# 2D Topology Optimization of truss structure
 
 <div class=caption><b> Caption: </b> Truss structure problem, proposed by Christensen in his book. See the reference for more information. </div>
 
