@@ -22,11 +22,17 @@ viz = Vizualization()
 #  E: modulus of elasticity A: area of cross section L: length of bar 
 # =============================================================================
 
+# =============================================================================
+# #Change the number of rows and columns for trusses
 rows = 8
 cols = 4
+# =============================================================================
 elementNodes, nodeCoordinates = FEM.structure2(rows,cols,1)
 stress= np.zeros(elementNodes.shape[0])
-E=1; 
+# =============================================================================
+#Change the Young Modulus here
+E=1
+# =============================================================================
 # Defining areas for each element
 A = np.ones((1,elementNodes.shape[0]))
 # Defining element_length of each element
@@ -80,15 +86,24 @@ def optim_fun(x, *args):
     return g0[0][0]
 
 # Defining the optimization problem and settings
-cons = ({'type': 'ineq', 'fun': lambda x:  Vmax[0] - np.dot(x[:],len_elements.T)[0]}) # Make sure that only 1D array comes out
+cons = ({'type': 'ineq', 'fun': lambda x:  Vmax[0] - np.dot(x[:],len_elements.T)[0]}) 
+# =============================================================================
+# Change the bounds here
 bnds = tuple([(.1,20)]*A.shape[1])
+# =============================================================================
+
 arguments = (GDof, elementNodes, nodeCoordinates, index_elem, E, prescribedDof, force, False)
 options={'gtol': 1e-5, 'disp': True, 'maxiter':50 }
 
-res = minimize(optim_fun, A, args=arguments, method='SLSQP', jac=None, hess=None, hessp=None, bounds=bnds, constraints=cons, tol=None, callback=None, options=options)
+
+# =============================================================================
+# Change the optimization method here
+res = minimize(optim_fun, A, args=arguments, method='SLSQP', jac=None, 
+               hess=None, hessp=None, bounds=bnds, constraints=cons, 
+               tol=None, callback=None, options=options)
 AreaOpt = res.x
 Maxiter = res.nit
-
+# =============================================================================
 
 # =============================================================================
 # boundary conditions and solution 
